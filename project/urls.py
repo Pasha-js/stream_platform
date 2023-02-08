@@ -8,8 +8,9 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.conf.urls.i18n import i18n_patterns
 
 urlpatterns = [
+    path('', views.index, name='index' ),
     path('admin/', admin.site.urls),
-    path('', views.index, name='index' )
+    path('test/', views.test, name='test'),
 ]
 
 if settings.DEBUG:

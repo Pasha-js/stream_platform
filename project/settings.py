@@ -12,7 +12,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+PROJECT_CORE_MULTILINGUAL_URLS = [
+    'project.urls',
+]
 
+PROJECT_CORE_URLS = [
+    'project.static_urls'
+]
 
 
 INSTALLED_APPS = [
