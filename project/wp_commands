@@ -1,0 +1,1 @@
+npm i -D webpack webpack-cli mini-css-extract-plugin optimize-css-assets-webpack-plugin terser-webpack-plugin @babel/preset-env sass-loader
